@@ -1,0 +1,33 @@
+<html>
+<head>
+ <title>Calci</title>
+</head>
+<body>
+<div>
+<img src="" width="100x" height="50px" style="padding-top:none">
+<form name="form1" class="calci">
+<input type="text" name="answer" id="answer_box"><br>
+<input type="button" value="9" class="buttons" onclick="form1.answer.value+='9'">
+<input type="button" value="8" class="buttons" onclick="form1.answer.value+='8'">
+<input type="button" value="7" class="buttons" onclick="form1.answer.value+='7'">
+<input type="button" value="/" class="buttons" onclick="form1.answer.value+='/'">
+<br><br>
+<input type="button" value="6" class="buttons" onclick="form1.answer.value+='6'">
+<input type="button" value="5" class="buttons" onclick="form1.answer.value+='5'">
+<input type="button" value="4" class="buttons" onclick="form1.answer.value+='4'">
+<input type="button" value="-" class="buttons" onclick="form1.answer.value+='-'">
+<br><br>
+<input type="button" value="3" class="buttons" onclick="form1.answer.value+='3'">
+<input type="button" value="2" class="buttons" onclick="form1.answer.value+='2'">
+<input type="button" value="1" class="buttons" onclick="form1.answer.value+='1'">
+<input type="button" value="+" class="buttons" onclick="form1.answer.value+='+'">
+<br><br>
+<input type="button" value="0" id="button_0" onclick="form1.answer.value+='0'">
+<input type="button" value="=" class="buttons" onclick="form1.answer.value=eval(form1.answer.value)">
+<input type="reset" value="clr" class="buttons">
+<input type="button" value="*" class="buttons" onclick="form1.answer.value+='*'">
+
+</form>
+</div>
+</body>
+</html>
